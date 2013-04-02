@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		881CAD88170A93AD0092CDD5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 881CAD87170A93AD0092CDD5 /* UIKit.framework */; };
+		881CAD8A170A93AD0092CDD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 881CAD89170A93AD0092CDD5 /* Foundation.framework */; };
+		881CAD8C170A93AD0092CDD5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 881CAD8B170A93AD0092CDD5 /* CoreGraphics.framework */; };
+		881CAD92170A93AD0092CDD5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 881CAD90170A93AD0092CDD5 /* InfoPlist.strings */; };
+		881CAD94170A93AD0092CDD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 881CAD93170A93AD0092CDD5 /* main.m */; };
+		881CAD98170A93AD0092CDD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 881CAD97170A93AD0092CDD5 /* AppDelegate.m */; };
+		881CAD9A170A93AD0092CDD5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 881CAD99170A93AD0092CDD5 /* Default.png */; };
+		881CAD9C170A93AD0092CDD5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 881CAD9B170A93AD0092CDD5 /* Default@2x.png */; };
+		881CAD9E170A93AD0092CDD5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 881CAD9D170A93AD0092CDD5 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		881CAD84170A93AD0092CDD5 /* TardisYear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TardisYear.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		881CAD87170A93AD0092CDD5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		881CAD89170A93AD0092CDD5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		881CAD8B170A93AD0092CDD5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		881CAD8F170A93AD0092CDD5 /* TardisYear-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TardisYear-Info.plist"; sourceTree = "<group>"; };
+		881CAD91170A93AD0092CDD5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		881CAD93170A93AD0092CDD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		881CAD95170A93AD0092CDD5 /* TardisYear-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TardisYear-Prefix.pch"; sourceTree = "<group>"; };
+		881CAD96170A93AD0092CDD5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		881CAD97170A93AD0092CDD5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		881CAD99170A93AD0092CDD5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		881CAD9B170A93AD0092CDD5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		881CAD9D170A93AD0092CDD5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		881CAD81170A93AD0092CDD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				881CAD88170A93AD0092CDD5 /* UIKit.framework in Frameworks */,
+				881CAD8A170A93AD0092CDD5 /* Foundation.framework in Frameworks */,
+				881CAD8C170A93AD0092CDD5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		881CAD7B170A93AD0092CDD5 = {
+			isa = PBXGroup;
+			children = (
+				881CAD8D170A93AD0092CDD5 /* TardisYear */,
+				881CAD86170A93AD0092CDD5 /* Frameworks */,
+				881CAD85170A93AD0092CDD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		881CAD85170A93AD0092CDD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				881CAD84170A93AD0092CDD5 /* TardisYear.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		881CAD86170A93AD0092CDD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				881CAD87170A93AD0092CDD5 /* UIKit.framework */,
+				881CAD89170A93AD0092CDD5 /* Foundation.framework */,
+				881CAD8B170A93AD0092CDD5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		881CAD8D170A93AD0092CDD5 /* TardisYear */ = {
+			isa = PBXGroup;
+			children = (
+				881CAD96170A93AD0092CDD5 /* AppDelegate.h */,
+				881CAD97170A93AD0092CDD5 /* AppDelegate.m */,
+				881CAD8E170A93AD0092CDD5 /* Supporting Files */,
+			);
+			path = TardisYear;
+			sourceTree = "<group>";
+		};
+		881CAD8E170A93AD0092CDD5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				881CAD8F170A93AD0092CDD5 /* TardisYear-Info.plist */,
+				881CAD90170A93AD0092CDD5 /* InfoPlist.strings */,
+				881CAD93170A93AD0092CDD5 /* main.m */,
+				881CAD95170A93AD0092CDD5 /* TardisYear-Prefix.pch */,
+				881CAD99170A93AD0092CDD5 /* Default.png */,
+				881CAD9B170A93AD0092CDD5 /* Default@2x.png */,
+				881CAD9D170A93AD0092CDD5 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		881CAD83170A93AD0092CDD5 /* TardisYear */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 881CADA1170A93AD0092CDD5 /* Build configuration list for PBXNativeTarget "TardisYear" */;
+			buildPhases = (
+				881CAD80170A93AD0092CDD5 /* Sources */,
+				881CAD81170A93AD0092CDD5 /* Frameworks */,
+				881CAD82170A93AD0092CDD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TardisYear;
+			productName = TardisYear;
+			productReference = 881CAD84170A93AD0092CDD5 /* TardisYear.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		881CAD7C170A93AD0092CDD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Andrews Apps";
+			};
+			buildConfigurationList = 881CAD7F170A93AD0092CDD5 /* Build configuration list for PBXProject "TardisYear" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 881CAD7B170A93AD0092CDD5;
+			productRefGroup = 881CAD85170A93AD0092CDD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				881CAD83170A93AD0092CDD5 /* TardisYear */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		881CAD82170A93AD0092CDD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				881CAD92170A93AD0092CDD5 /* InfoPlist.strings in Resources */,
+				881CAD9A170A93AD0092CDD5 /* Default.png in Resources */,
+				881CAD9C170A93AD0092CDD5 /* Default@2x.png in Resources */,
+				881CAD9E170A93AD0092CDD5 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		881CAD80170A93AD0092CDD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				881CAD94170A93AD0092CDD5 /* main.m in Sources */,
+				881CAD98170A93AD0092CDD5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		881CAD90170A93AD0092CDD5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				881CAD91170A93AD0092CDD5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		881CAD9F170A93AD0092CDD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		881CADA0170A93AD0092CDD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		881CADA2170A93AD0092CDD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TardisYear/TardisYear-Prefix.pch";
+				INFOPLIST_FILE = "TardisYear/TardisYear-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		881CADA3170A93AD0092CDD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TardisYear/TardisYear-Prefix.pch";
+				INFOPLIST_FILE = "TardisYear/TardisYear-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		881CAD7F170A93AD0092CDD5 /* Build configuration list for PBXProject "TardisYear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				881CAD9F170A93AD0092CDD5 /* Debug */,
+				881CADA0170A93AD0092CDD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		881CADA1170A93AD0092CDD5 /* Build configuration list for PBXNativeTarget "TardisYear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				881CADA2170A93AD0092CDD5 /* Debug */,
+				881CADA3170A93AD0092CDD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 881CAD7C170A93AD0092CDD5 /* Project object */;
+}
